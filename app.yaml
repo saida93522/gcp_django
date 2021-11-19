@@ -1,2 +1,2 @@
 runtime: python37
-entrypoint: gunicord -b :$PORT hello_project.wsgi
+entrypoint: gunicorn -b :$PORT hello_project.wsgi
